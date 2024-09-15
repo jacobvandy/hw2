@@ -18,5 +18,5 @@ function getDisplay()
  return "<p>Nothing posted to the page</p>";
   <?php
 }
-    }
+}
 ?>
