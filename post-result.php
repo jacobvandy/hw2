@@ -8,14 +8,14 @@ include "view-header.php";
 echo getDisplay();
 include "view-footer.php";
 
-function getDisplay(); {
+function getDisplay() {
         if (isset($_POST['jacob-vandy'])) {
 
  return "<p>the value sent is: </p>" . $_POST['jacob-vandy'];
 } else {
 
  return "<p>Nothing posted to the page</p>";
-  <?php
+
 }
 }
 ?>
